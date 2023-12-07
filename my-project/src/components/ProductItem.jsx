@@ -6,7 +6,7 @@ const ProductItem = ({ title, link, image }) => {
                 whileHover={{ scale: 1.05 }}>
       <img src={image} alt={title} className="w-full h-64 object-cover rounded" />
       <h3 className="text-lg font-semibold mt-2">{title}</h3>
-      <a href={link} className="text-blue-500 hover:text-blue-700 transition-colors duration-300">Acheter</a>
+      <a href={link} className="text-blue-500 hover:text-blue-700 transition-colors duration-300">Offrir</a>
     </motion.div>
   );
 };

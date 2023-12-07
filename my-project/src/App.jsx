@@ -1,9 +1,9 @@
-// src/App.js
 import { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import Star from './components/Star';
 import Header from './components/Header';
 import ProductList from './components/ProductList';
+
 
 function App() {
   const [stars, setStars] = useState([]);

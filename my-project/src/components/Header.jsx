@@ -9,14 +9,14 @@ const Header = () => {
   useEffect(() => {
     gsap.registerPlugin(TextPlugin);
     gsap.to(textRef.current, {
-      text: "Ma Liste de Cadeau pour Nöel !",
+      text: "🎅 Ma Liste de Cadeau pour Nöel 🎅",
       duration: 2,
       ease: "none"
     });
   }, []);
 
   return (
-    <header className="bg-blue-500 text-white p-4 shadow-md">
+    <header className="bg-blue-500 text-white p-4 shadow-md flex align-center justify-center">
       <h1 className="text-3xl font-bold" ref={textRef}></h1>
     </header>
   );
